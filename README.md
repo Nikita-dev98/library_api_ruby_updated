@@ -1,7 +1,5 @@
 # README
 
-Things you may want to cover:
-
 * Ruby version - 3.3.9
 
 * Database creation & initialization - config/database.yml
@@ -15,11 +13,7 @@ Things you may want to cover:
 * define the API endpoints (config/routes.rb)
 
 * Controller (app/controller/application_controller.rb) - handles http requests, talks to model and returns responses. Each endpoint maps to a controller method
+  
+* Test script - /script/test_books_api.rb
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
