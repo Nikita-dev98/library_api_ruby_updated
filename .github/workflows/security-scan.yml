@@ -7,7 +7,7 @@ on:
 
 jobs:
   security:
-    uses: Nikita-dev98/security-scanner/.github/workflows/full-scan.yml@main
+    uses: Nikita-dev98/github_alt_security_scanner/.github/workflows/full-scan.yml@main
     secrets: inherit
     permissions:
       contents: read
