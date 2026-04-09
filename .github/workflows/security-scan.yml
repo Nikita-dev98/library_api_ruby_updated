@@ -1,0 +1,14 @@
+name: Nightly Security Scan
+
+on:
+  schedule:
+    - cron: '0 2 * * *'  # 02:00 UTC every night
+  workflow_dispatch:       # allows a manual run from the Actions tab
+
+jobs:
+  security:
+    uses: Nikita-dev98/security-scanner/.github/workflows/full-scan.yml@main
+    secrets: inherit
+    permissions:
+      contents: read
+      issues: write
